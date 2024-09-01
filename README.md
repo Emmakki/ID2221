@@ -18,4 +18,6 @@
 
 *You can implement your code either in Jupyter Notebook or as a stand-alone application. The final submission should include a zip file containing your code and a short report (2-3 pages) detailing what you have done, the dataset used, your methodology, your results, and instructions on how to run the code.*
 
+Ideas in file: "ideas_subject.md"
+
 ## Task 3 - Group Presentation
