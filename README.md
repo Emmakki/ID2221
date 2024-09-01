@@ -1,6 +1,8 @@
 # ID2221 - Assignments
 
-![Capture d’écran du 2024-09-01 15-35-38](https://github.com/user-attachments/assets/d114b12a-e21f-44d3-8c1b-ed6830bb06a4)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d114b12a-e21f-44d3-8c1b-ed6830bb06a4" alt="Capture d’écran du 2024-09-01 15-35-38">
+</p>
 
 ## Task 1 - Review Questions
 
