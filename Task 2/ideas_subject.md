@@ -27,3 +27,5 @@ https://github.com/sn2606/Climate-Change-Datasets
 |:-----------:|:------------:|
 | Decline in biodiversity?|Global warming of the planet?|
 | | |
+
+Make a dashboard with different analyze over a phenomene
