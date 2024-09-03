@@ -29,3 +29,10 @@ https://github.com/sn2606/Climate-Change-Datasets
 | | |
 
 Make a dashboard with different analyze over a phenomene
+
+Sea biodiversity: https://obis.org/data/access/
+
+Climate changes data: https://climatedata.imf.org/pages/access-data
+
+Sea level rise (SLR): https://energydata.info/dataset/world-sea-level-rise-dataset
+
