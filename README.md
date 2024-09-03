@@ -23,3 +23,20 @@
 Ideas in file: "ideas_subject.md"
 
 ## Task 3 - Group Presentation
+
+*In this, each group will select one of the course modules and work on it by writing an essay and presenting it to an opponent group (another group). The reading material for each module is available here.*
+
+*This task consists of several steps:*
+
+    Step 1: Each group should select a module and study the relevant material.
+    Step 2: Each group member should individually focus on a subtopic, prepare a presentation, and present it to the other group members.
+    Step 3: The group should collaboratively write an essay to explain their findings and prepare a presentation based on the essay.
+    Step 4: Each group should study the essay of another group and prepare some questions for a critique (at least five questions). The list of questions should be sent to the examiner before the oral presentation.
+    Step 5: Each group should present their findings and respond to questions from their opponent group.
+
+*Grading for this task is divided into the following components:*
+
+    E: Essay - group grade (5 points)
+    P: Presentation and interaction - group grade (2 points)
+    Q: Reviewing the essay and preparing the questions - group grade (2 points)
+    A: Answering questions - individual grade (1 point)
