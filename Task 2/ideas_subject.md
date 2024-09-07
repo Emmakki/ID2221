@@ -34,5 +34,13 @@ Sea biodiversity: https://obis.org/data/access/
 
 Climate changes data: https://climatedata.imf.org/pages/access-data
 
+**Problem:** Analyzing and predict the general changes in the ocean regarding the climate changes
+
+**Tools** Store in HDFS -> strured data (no need for NoSQL), CSV; Spark for processing, Spark SQL, Store the result in MongoDB, use JavaScript and D3 for visualization
+
+**Data:** https://obis.org/data/access/
+
+**Methodology and Algorithm** 
+
 Sea level rise (SLR): https://energydata.info/dataset/world-sea-level-rise-dataset
 
