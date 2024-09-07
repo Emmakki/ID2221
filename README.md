@@ -22,6 +22,8 @@
 
 Ideas in file: "ideas_subject.md"
 
+https://www.overleaf.com/2698263158gtztftjbzcgt#a43cf3
+
 ## Task 3 - Group Presentation
 
 *In this, each group will select one of the course modules and work on it by writing an essay and presenting it to an opponent group (another group). The reading material for each module is available here.*
