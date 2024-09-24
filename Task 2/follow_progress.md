@@ -1,0 +1,3 @@
+- Install in standalone  mode (https://hbase.apache.org/book.html#getting_started)
+- Use happybase to collect data (https://happybase.readthedocs.io/en/latest/)
+- Start thrift (https://hbase.apache.org/apidocs/org/apache/hadoop/hbase/thrift/package-summary.html)
