@@ -22,7 +22,7 @@ async function closeConnection() {
 // Function to find documents
 async function findDocuments(collectionName, query = {}) {
     try {
-        const collection = client.db("your_database_name").collection(collectionName);
+        const collection = client.db("biodiversity_db").collection(collectionName);
         const documents = await collection.find(query).toArray();
         return documents;
     } catch (error) {
