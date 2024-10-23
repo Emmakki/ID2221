@@ -14,7 +14,7 @@
 
 ### 2. **Temporal Studies (Changes Over Time)**
    - [ ] **Temporal trend analysis**: Observe changes in species distribution over several decades or analyze seasonal and interannual variations.
-   - [ ] **Migratory phenomena**: Identify changes in species distribution due to climate variations (such as migration to colder regions as a result of ocean warming).
+   - [x] **Migratory phenomena**: Identify changes in species distribution due to climate variations (such as migration to colder regions as a result of ocean warming).
 
 ### 3. **Biodiversity and Species Richness Analysis**
    - [ ] **Species richness calculation**: Use the data to calculate species richness in different regions or at various depths to compare zones.
