@@ -44,3 +44,8 @@ Climate changes data: https://climatedata.imf.org/pages/access-data
 
 Sea level rise (SLR): https://energydata.info/dataset/world-sea-level-rise-dataset
 
+# Submission
+The final submission should include a zip file containing your code and a short report (2-3 pages) detailing what you have done, the dataset used, your methodology, your results, and instructions on how to run the code.
+
+https://www.overleaf.com/6864154889gnsjzxfhqgyp#9fe748
+

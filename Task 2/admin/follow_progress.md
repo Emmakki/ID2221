@@ -18,7 +18,7 @@
 
 ### 3. **Biodiversity and Species Richness Analysis**
    - [ ] **Species richness calculation**: Use the data to calculate species richness in different regions or at various depths to compare zones.
-   - [ ] **Biodiversity indices**: Calculate indices like Shannon or Simpson to estimate species diversity in specific areas.
+   - [x] **Biodiversity indices**: Calculate indices like Shannon or Simpson to estimate species diversity in specific areas.
 
 ### 4. **Habitat and Ecological Niche Modeling**
    - [ ] **Ecological niche models**: OBIS data can be combined with environmental variables (temperature, salinity, depth, etc.) to model the ecological niche of species, helping to understand the conditions under which a species is likely to live.
