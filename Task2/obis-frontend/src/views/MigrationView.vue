@@ -25,6 +25,15 @@ onMounted(() => {
       response.json().then(function(data) {
         console.log(data);
         loadedData.value = data;
+
+
+        const data2010 = data.filter((dataPoint) => {
+          return dataPoint.date_year == 2010;
+        });
+        const data1910 = data.filter((dataPoint) => {
+          return dataPoint.date_year == 1910;
+        });
+
       });
     })
     .catch(err => {
@@ -41,4 +50,5 @@ onMounted(() => {
     align-items: center;
   }
 }
+
 </style>

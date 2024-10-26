@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
 app.get("/hotspots", async (req, res) => {
   let collection = await db.collection("biodiversity_hotspots");
   let results = await collection.find({})
-    .limit(50)
     .toArray();
 
   res.send(results).status(200);
@@ -25,7 +24,6 @@ app.get("/hotspots", async (req, res) => {
 app.get("/migration", async (req, res) => {
   let collection = await db.collection("migration");
   let results = await collection.find({})
-    .limit(50)
     .toArray();
 
   res.send(results).status(200);
@@ -34,7 +32,6 @@ app.get("/migration", async (req, res) => {
 app.get("/shannon", async (req, res) => {
   let collection = await db.collection("shannon");
   let results = await collection.find({})
-    .limit(50)
     .toArray();
 
   res.send(results).status(200);
@@ -43,7 +40,6 @@ app.get("/shannon", async (req, res) => {
 app.get("/statistics", async (req, res) => {
   let collection = await db.collection("statistics");
   let results = await collection.find({})
-    .limit(50)
     .toArray();
 
   res.send(results).status(200);

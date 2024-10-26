@@ -1,17 +1,17 @@
 <template>
-  <header>
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/statistics">Statistics</RouterLink>
+        <RouterLink to="/shannon">Shannon Index</RouterLink>
         <RouterLink to="/hotspots">Biodiversity Hotspots</RouterLink>
         <RouterLink to="/migration">Migration</RouterLink>
-        <RouterLink to="/shannon">Shannon Index</RouterLink>
+        <RouterLink to="/about">Methods</RouterLink>
       </nav>
     </div>
-  </header>
 
-  <RouterView />
+   <RouterView />
+
+
 </template>
 
 <script setup lang="ts">
@@ -24,10 +24,6 @@ header {
   max-height: 100vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
 
 nav {
   width: 100%;
@@ -79,5 +75,9 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+}
+
+.page {
+  width: 100%;
 }
 </style>

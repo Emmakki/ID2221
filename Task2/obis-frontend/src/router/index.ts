@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ShannonView from '../views/ShannonView.vue';
 import MigrationView from '@/views/MigrationView.vue';
-import StatisticsView from '@/views/StatisticsView.vue';
 import HotspotsView from '@/views/HotspotsView.vue';
 
 
@@ -26,11 +25,6 @@ const router = createRouter({
       path: '/hotspots',
       name: 'hotspots',
       component: HotspotsView,
-    },
-    {
-      path: '/statistics',
-      name: 'statistics',
-      component: StatisticsView,
     },
     {
       path: '/migration',
