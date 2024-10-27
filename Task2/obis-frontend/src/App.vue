@@ -5,7 +5,6 @@
         <RouterLink to="/shannon">Shannon Index</RouterLink>
         <RouterLink to="/hotspots">Biodiversity Hotspots</RouterLink>
         <RouterLink to="/migration">Migration</RouterLink>
-        <RouterLink to="/about">Methods</RouterLink>
       </nav>
     </div>
 

@@ -50,7 +50,7 @@ const option = ref({
       orient: "vertical",
       right: "5%",
       top: "2%",
-      data: ["Hotspot"],
+      data: ["Migration"],
       textStyle: {
         color: "#fff"
       }
@@ -74,14 +74,14 @@ const option = ref({
     },
     series: [
       {
-        name: "Hotspot",
+        name: "Migration",
         type: "scatter",
         coordinateSystem: "geo",
         data: props.loadedData,
-        symbolSize: val => val[2] / 500,
+        symbolSize: 20,
         tooltip: {
           formatter: function (val) {
-            return "Richness: " + val.value[2];
+            return "Year: " + val.value[2] + ", Temperature Region: " + val.value[3];
           }
         },
         itemStyle: {
@@ -103,7 +103,7 @@ const map = shallowRef(null);
   position: relative;
 }
 .container{
-  height: 900px;
-  width: 1320px;
+  height: 500px;
+  width: 820px;
 }
 </style>

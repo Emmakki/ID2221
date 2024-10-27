@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { use } from 'echarts/core';
 import { CanvasRenderer } from 'echarts/renderers';
-import { LineChart } from 'echarts/charts';
+import { BarChart } from 'echarts/charts';
 import {
   TitleComponent,
   TooltipComponent,
@@ -20,7 +20,7 @@ import { ref, provide } from 'vue';
 
 use([
   CanvasRenderer,
-  LineChart,
+  BarChart,
   TitleComponent,
   TooltipComponent,
   LegendComponent,
@@ -31,36 +31,36 @@ provide(THEME_KEY, 'light');
 
 
 const props = defineProps<{
-  years: any,
-  values: any,
-  cutoff: string,
+  counts: any,
+  year: string,
 }>();
 
 const option = ref({
   title: {
-    text: ' Change in Shannon Index since ' + props.cutoff,
-    left: 'center'
+    text: 'Average migration areas in ' + props.year,
+    left: 'center',
   },
   xAxis: {
     type: 'category',
-    data: props.years 
+    data: ['Warm', 'Temperate', 'Cold']
   },
   yAxis: {
-    type: 'value'
+    type: 'value',
+    label: 'Count'
   },
   series: [
     {
-      data: props.values,
-      type: 'line',
-      smooth: true
+      data: props.counts,
+      type: 'bar'
     }
   ]
 });
 </script>
 
+
 <style scoped>
 .chart {
-  height: 70vh;
+  height: 50vh;
   width: 100%;
 }
 

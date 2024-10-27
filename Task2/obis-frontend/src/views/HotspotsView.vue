@@ -6,6 +6,7 @@
     is an indicator of biodiversity within a given area, and can help identify areas where biodiversity is threatened or
     where we might need to be collecting more data. 
   </p>
+  <br>
   <div>
     <BiodiversityBubbleMap :loadedData="loadedData"></BiodiversityBubbleMap>
   </div>
@@ -37,7 +38,6 @@ onMounted(() => {
             })
           }
         }
-        console.log(loadedData.value);
       });
     })
     .catch(err => {
@@ -47,13 +47,4 @@ onMounted(() => {
 </script>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-
-
 </style>

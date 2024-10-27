@@ -15,16 +15,41 @@ app.get('/', (req, res) => {
 
 app.get("/hotspots", async (req, res) => {
   let collection = await db.collection("biodiversity_hotspots");
-  let results = await collection.find({})
+  let results = await collection.find({ 'species_richness': { $gte: 100 } })
     .toArray();
 
   res.send(results).status(200);
 });
 
-app.get("/migration", async (req, res) => {
+app.get("/migration/:year", async (req, res) => {
   let collection = await db.collection("migration");
-  let results = await collection.find({})
+  let results = await collection.find({ 'date_year': { $eq: req.params.year } })
     .toArray();
+
+  res.send(results).status(200);
+});
+
+app.get("/migrationInfo/:species", async (req, res) => {
+  let collection = await db.collection("migration");
+  let results = await collection.find({ 'scientificName': { $eq: req.params.species } })
+    .toArray();
+
+  res.send(results).status(200);
+});
+
+app.get("/migrationsAggregated/:year/:temperature", async (req, res) => {
+  let collection = await db.collection("migration");
+  let results = await collection.aggregate([
+    {
+      $match: {
+        'temperature_region': req.params.temperature,
+        'date_year': req.params.year,
+      }
+    },
+    {
+      $count: "total"
+    }
+  ]).toArray();
 
   res.send(results).status(200);
 });
@@ -39,7 +64,7 @@ app.get("/shannon", async (req, res) => {
 
 app.get("/statistics", async (req, res) => {
   let collection = await db.collection("statistics");
-  let results = await collection.find({})
+  let results = await collection.find({ 'count_per_species': { $gte: 2000 } })
     .toArray();
 
   res.send(results).status(200);
@@ -48,6 +73,7 @@ app.get("/statistics", async (req, res) => {
 // Global error handling
 app.use((err, _req, res, next) => {
   res.status(500).send("Uh oh! An unexpected error occured.")
+  console.log(err);
 })
 
 // start the Express server

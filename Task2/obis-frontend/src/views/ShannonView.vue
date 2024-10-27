@@ -35,14 +35,10 @@ onMounted(() => {
     .then(response => {
       if (response.status !== 200) {
         console.log(`Looks like there was a problem. Status Code: ${response.status}`);
-
         return;
       }
-
-      // Examine the text in the response
       response.json().then(function(data) {
         loadedData.value = data;
-
         data = data.sort((a: any, b: any) => {
           if (a.date_year < b.date_year) {
             return -1;
@@ -69,14 +65,6 @@ onMounted(() => {
 </script>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-
 .charts {
   display: flex;
   flex-direction: row;
