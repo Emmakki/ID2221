@@ -1,3 +1,3 @@
 - You mentioned limitations of existing approaches related to DRF contributions. Could you explain the types of limitations and how DRF addresses them ?
 - Could you developp a bit more about Borg fault tolerance mechanisms ?
-- 
+- You mentionned that Mesos may not always achieve optimal resource allocation compared to a centralized scheduler. In what scenarios might a centralized scheduler be more advantageous than Mesos's two-level scheduling approach?
