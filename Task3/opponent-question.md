@@ -1,0 +1,3 @@
+- You mentioned limitations of existing approaches related to DRF contributions. Could you explain the types of limitations and how DRF addresses them ?
+- Could you developp a bit more about Borg fault tolerance mechanisms ?
+- 
